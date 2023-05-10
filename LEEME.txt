@@ -1,0 +1,13 @@
+Este es un proyecto algo incompleto de un POS conectado para generar facturacion electronica
+Se usa en php todo el pos el cual guarda en una base de datos lo necesario para la factura electronica.
+el proyecto en java se encarga de generar los XML (Use un metodo poco eficiente, si lo pueden mejorar seria mucho mejor) 
+tambien los firma y los carga al sri y verifica si la carga fue exitosa, asi mismo envia un email al cliente con su respectivo ride
+El orde de los ejecutables en java es
+1. iniciador.
+2. consumir
+3. enviar email.
+Aconsejo para pruebas dejar la base de datos sin clave, luego podran editarla pero deberan hacer todas las modificaciones
+en java como en php para evitar que existan errores.
+Los datos del RUC lo editan desde la base y la configuracion de ospos
+La clave default del POS php es pointofsale
+Use eclipse
